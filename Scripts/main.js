@@ -30,7 +30,7 @@ $('#shred').click(function() {
 		//function callback for movement completion
 		checkIfComplete();
 
-		$('#racerInfo1 span').text( 'Finished in ' + place + ' Winner!');
+		$('#racerInfo1 span').text( 'Finished in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
 
 
 	});
@@ -44,7 +44,7 @@ $('#luigi').animate({
 		//function callback for movement completion
 		checkIfComplete();
 
-		$('#racerInfo2 span').text( 'Finished in ' + place + ' Winner!');
+		$('#racerInfo2 span').text( 'Finished in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
 
 
 	});
